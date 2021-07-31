@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.header2{
+    font-size: 5rem;
+}
+.carItem{
+    margin-bottom: 10rem;
+}
+.carr1{
+    float: left;
+}
+.carr2{
+    float: right;
+}
+.img-catagory{
+    position: relative;
+    overflow: hidden;
+   
+}
+.img-catagory img:hover{
+    transform: scale(1.1);
+    transition: ease 1s;
+}
+
+
+#deal{
+    background-image: url('images/deal-plain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+@media(max-width:576px) {
+    .header2{
+        font-size: 1rem;
+    }
+    .carItem{
+        margin-bottom: 0rem;
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+    .carItem p{
+        font-size: .7rem;
+    }
+    .carItem h6{
+        font-size: .8rem;
+ 
+}
